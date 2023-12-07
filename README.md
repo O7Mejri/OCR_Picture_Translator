@@ -36,6 +36,10 @@ OCR Picture Translator is a Django API that utilizes Pytesseract, Google Transla
    - Download the pre-built binaries from the Poppler for Windows repository.
    - Extract the contents of the zip file.
    - Add the directory containing pdftoppm (Poppler's tool for converting PDF to images) to your system's PATH variable.
+5. Install Proper GoogleTrans library:
+   make sure to have this version to ensure dependency compatibilities
+   ```bash
+   pip install googletrans==4.0.0-rc1
 4. Run server:
     ```bash
     python manage.py runserver
